@@ -24,7 +24,7 @@ test('renders the Wordle-anche! title', () => {
 
 test('renders an hr tag with the id "divider"', () => {
   render(<App />);
-  const dividerElement = document.getElementById('divider');
+  const dividerElement = document.getElementById('dividers');
   expect(dividerElement).toBeInTheDocument();
 });
 
